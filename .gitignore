@@ -2,7 +2,6 @@
 bin/
 obj/
 .vs/
-.vscode/
 .idea/
 *.user
 *.suo
@@ -25,9 +24,10 @@ tmp/
 custom-launch-docker.sh
 dotnet-install.sh
 docker-compose.yml
-.env
 
 # Python
 __pycache__/
 venv/
 *.pth
+config.bat
+node_modules

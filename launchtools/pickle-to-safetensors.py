@@ -1,6 +1,11 @@
 # Internally called by SwarmUI
 # python -s launchtools/pickle-to-safetensors.py <path> <fp16(true/false)>
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import os, sys, glob, traceback
 
 sys.path.append(os.path.dirname(__file__))
